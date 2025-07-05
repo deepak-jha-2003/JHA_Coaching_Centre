@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io\apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io\favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io\favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>JHA Coaching Centre</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" />
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="img/logo.png" alt="JHA Coaching Centre" class="logo">
+            </div>
+            <div class="nav-container">
+                <button class="hamburger" aria-label="Menu">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+                <nav>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#register">Register</a></li>
+                        <li class="mobile-contact"><a href="#contact" class="contact-btn">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <a href="#contact" class="contact-btn desktop-contact">Contact Us</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Welcome to JHA Coaching Centre</h2>
+            <p>Quality education for Classes 1 to 12 (WBBSE, CBSE, ICSE)</p>
+            <a href="#courses" class="hero-btn">Explore Courses</a>
+        </div>
+    </section>
+
+    <section id="about" class="fade-in">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p><strong>JHA Coaching Centre</strong> is a trusted educational hub dedicated to nurturing academic
+                    success. Our expert faculty focuses on personalized learning, building strong fundamentals, and
+                    boosting confidence across all levels.</p>
+                <p>We serve students from Class 1 to 12, covering WBBSE, CBSE, and ICSE boards. With our
+                    student-centered approach, we prepare young minds for a brighter future in a caring, safe, and
+                    inspiring environment.</p>
+            </div>
+            <img src="img/coaching-image.jpg" alt="About JHA Coaching" class="about-image" />
+        </div>
+    </section>
+
+    <section id="courses" class="fade-in">
+        <h2>Courses Offered</h2>
+        <div class="course-cards">
+            <div class="card">
+                <i class="fas fa-book-open"></i>
+                <h3>Class 1 to 10</h3>
+                <p>Comprehensive subject coverage under WBBSE, CBSE & ICSE.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-calculator"></i>
+                <h3>Class XI & XII</h3>
+                <p>Expert coaching for Mathematics and core subjects.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="fade-in">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+            <a href="img/photo1.jpeg" data-lightbox="gallery" data-title="Classroom Session"><img src="img/photo1.jpeg"
+                    alt="Gallery 1" /></a>
+            <a href="img/photo2.jpeg" data-lightbox="gallery" data-title="Student Activity"><img src="img/photo2.jpeg"
+                    alt="Gallery 2" /></a>
+            <a href="img/photo3.jpeg" data-lightbox="gallery" data-title="Group Study"><img src="img/photo3.jpeg"
+                    alt="Gallery 3" /></a>
+            <a href="img/photo4.jpeg" data-lightbox="gallery" data-title="Achievements"><img src="img/photo4.jpeg"
+                    alt="Gallery 4" /></a>
+        </div>
+    </section>
+
+    <section id="register" class="fade-in">
+        <h2>Student Registration</h2>
+        <form class="registration-form">
+            <input type="text" placeholder="Full Name" required />
+            <input type="email" placeholder="Email Address" required />
+            <input type="tel" placeholder="Phone Number" required />
+            <select required>
+                <option value="">Select Class</option>
+                <option value="Class 1-5">Class 1-5</option>
+                <option value="Class 6-10">Class 6-10</option>
+                <option value="Class 11-12">Class 11-12</option>
+            </select>
+            <textarea placeholder="Any Message (Optional)"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-container">
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 41/1 Sridhar Roy Road, Picnic Garden, Kolkata - 700039</p>
+                <p><i class="fas fa-phone"></i> 9674943670, 7667927331</p>
+                <p><i class="fas fa-envelope"></i> info@jhacoaching.com</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-map">
+                <iframe src="https://www.google.com/maps?q=22.529306,88.379417&z=17&output=embed" allowfullscreen=""
+                    loading="lazy"></iframe>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 JHA Coaching Centre. All rights reserved.</p>
+            <p class="developer-credit">Developed by DMV TechHub</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
